@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello Word! Amani is learning to code at Coding Dojo.</h1>
+    <p id="count">The count is 1</p>
+    <button onclick="add1()">+</button>
+    <button onclick="less1()">-</button>
+
+    <h1>Cat Vs Dog</h1>
+    <img src="images/Cat.png" alt="" id="cat_animal">
+    <div>
+        <button onclick="pickCat(this)">Pick Cat</button>
+        <button onclick="pickDog(this)">Pick Dog</button>
+    </div>
+    
+    <button onclick="setActive(this)">Switch to dark mode</button>
+
+    <button onclick="swith(this)">Change to dark mode</button>
+
+    <button onclick="changeTo(this)">Set to dark mode</button>
+
+
+    <label>I would like to eat </label>
+    <select onchange="chooseLunch(this)">
+        <option>Tacos</option>
+        <option>Pasta</option>
+        <option>Sushi</option>
+    </select>
+
+    <div class="card">
+        <p>Hello my name is:</p>
+        <h3 id="name-tag">Example</h3>
+    </div>
+        
+    <input type="text" value="Example" oninput="setName(this)">
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

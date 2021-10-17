@@ -1,0 +1,19 @@
+#count {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+
+}
+
+* {
+    font-size: 50px;
+    padding: 20px;
+}
+
+button {
+    width: 300px;
+}
+
+img {
+    height: 250px;
+    margin-left: 90px;
+}
